@@ -1,0 +1,44 @@
+.master{
+    display: block;
+    margin-left: 2%;
+}
+.main{
+    /* display: block; */
+}
+.book{
+    width:300px;
+    height: 300px;
+    transition: transform .5s;
+}
+.aboutBook{
+    float: right;
+    /* display: inline-block; */
+    width: 50%;
+    margin-right: 10%;
+    margin-left: 10%;
+    text-align: justify;
+    
+}
+.container{
+    display: inline-block;
+}
+
+.label,.aboutBook{
+
+    color: white;
+}
+
+.label{
+    font-size: larger;
+    text-decoration: underline;
+    
+}
+
+
+.book:hover{
+    
+    -ms-transform: scale(1.5); /* IE 9 */
+-webkit-transform: scale(1.5); /* Safari 3-8 */
+transform: scale(1.5);
+ 
+}

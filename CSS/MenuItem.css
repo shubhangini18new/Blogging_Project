@@ -1,0 +1,81 @@
+ul{
+    list-style: none;
+    margin: 0px;  
+    text-align: right;
+}
+li{
+    display: inline-block;
+    /* background-color: skyblue; */
+    padding: 5px;
+    color: whitesmoke !important;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+li:hover{
+    background-color: whitesmoke;
+}
+
+li:hover a{
+
+   color: rgb(31, 83, 104); 
+}
+
+
+.img_styles{
+    width: 250px;
+    height: 300px;
+    /* position: absolute; */
+  }
+
+  .contain{
+      display: inline-block;
+      height: 560px;
+      width: 250px;
+      border: black solid 1px;
+      border-radius: 5px;
+      margin: 10px;
+      box-shadow: 10px 15px #888888;
+      
+  }
+
+  .bookTitle{
+      color: whitesmoke;
+      font-size: 25px;
+width: 250px;
+height: 60px;
+background-color: rgb(31, 83, 104);
+display: block;
+text-align: center;
+
+
+  }
+
+  .bookcontent{
+      display: block;
+    width: 250px;
+    height: 200px;
+    background-color:rgb(210, 223, 230);
+    overflow:scroll; 
+    overflow-y:scroll;
+    overflow-x:hidden;
+    text-align: justify;
+  }
+
+  #divInput{
+      text-align: center !important;
+  }
+
+  .form-control{
+      background-color: rgb(210, 223, 230) !important;
+  }
+
+  .nav_bar{ 
+     display: inline;
+     float: right;
+  } 
+
+  
